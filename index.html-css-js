@@ -1,0 +1,457 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Golden Scrolls
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Header -->
+  <header class="bg-brown-800 text-white">
+   <div class="container mx-auto flex justify-between items-center py-4">
+    <div class="flex items-center">
+     <div class="w-10 h-10 bg-gray-300 rounded-full mr-4">
+     </div>
+     <div>
+      <p class="text-sm">
+       +91 9874802234
+      </p>
+      <p class="text-sm">
+       info@goldenscrolls.com
+      </p>
+     </div>
+    </div>
+    <div class="flex items-center space-x-4">
+     <a class="text-white" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-white" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-white" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a class="text-white" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+   </div>
+  </header>
+  <!-- Navigation -->
+  <nav class="bg-white shadow">
+   <div class="container mx-auto flex justify-between items-center py-4">
+    <div class="flex items-center space-x-4">
+     <a class="text-gray-800" href="#">
+      HOME
+     </a>
+     <a class="text-gray-800" href="#">
+      BOOKS
+     </a>
+     <a class="text-gray-800" href="#">
+      ANIMATED STORIES
+     </a>
+     <a class="text-gray-800" href="#">
+      ABOUT
+     </a>
+     <a class="text-gray-800" href="#">
+      CONTACT US
+     </a>
+    </div>
+    <div class="flex items-center space-x-4">
+     <input class="border rounded px-4 py-2" placeholder="Search for books" type="text"/>
+     <a class="text-gray-800" href="#">
+      MY ACCOUNT
+     </a>
+     <a class="text-gray-800" href="#">
+      CART (0)
+     </a>
+     <a class="text-gray-800" href="#">
+      LOGIN
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="container mx-auto my-8">
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2 p-4">
+     <h1 class="text-4xl font-bold text-gray-800">
+      Golden Scrolls
+     </h1>
+     <p class="text-gray-600 mt-4">
+      Welcome to GOLDEN SCROLLS, a tribute to Sufi Ibn Gatan, preserving the legacy of Islamic teachings and stories.
+     </p>
+     <button class="mt-4 px-6 py-2 bg-brown-800 text-white rounded">
+      Start Reading
+     </button>
+    </div>
+    <div class="md:w-1/2 p-4">
+     <img alt="Books on a shelf" class="rounded shadow" height="400" src="https://storage.googleapis.com/a1aa/image/olSia3AoE8oyNRbR1B7fXz6rOIi4aXqzUTnljBzGU8tgoZ0JA.jpg" width="600"/>
+    </div>
+   </div>
+  </section>
+  <!-- Categories Section -->
+  <section class="bg-white py-8">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold text-gray-800">
+     Explore our Top Categories
+    </h2>
+    <div class="flex flex-col md:flex-row mt-4">
+     <div class="md:w-1/3 p-4">
+      <img alt="Modern Teachings" class="rounded shadow" height="200" src="https://storage.googleapis.com/a1aa/image/IqtDKR1ixYqrDdUvS6eZdQ8igeCOzFF4aYgeU8mpUTAyhmRnA.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Modern Teachings
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Explore contemporary teachings and practices.
+      </p>
+     </div>
+     <div class="md:w-1/3 p-4">
+      <img alt="Animated Stories" class="rounded shadow" height="200" src="https://storage.googleapis.com/a1aa/image/PSDh5uUyKQYpMhqlrbFmaPoNYpoRDs5mAR5QIut4iLMQ0M6E.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Animated Stories
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Engage with animated stories for all ages.
+      </p>
+     </div>
+     <div class="md:w-1/3 p-4">
+      <img alt="Ancient History" class="rounded shadow" height="200" src="https://storage.googleapis.com/a1aa/image/mEFey7WzFF3maijImI7dvusGR6g71Tc6g4dZNrSx8sojoZ0JA.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Ancient History
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Discover the rich history of ancient civilizations.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Digital Content Section -->
+  <section class="container mx-auto my-8">
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2 p-4">
+     <h2 class="text-2xl font-bold text-gray-800">
+      Access, Read, Practice &amp; Engage with Digital Content (eBook)
+     </h2>
+     <p class="text-gray-600 mt-4">
+      Access our exclusive digital content and immerse yourself in the rich world of Islamic teachings, stories, and modern readings.
+     </p>
+     <input class="border rounded px-4 py-2 mt-4" placeholder="Enter your email address" type="email"/>
+     <button class="mt-4 px-6 py-2 bg-brown-800 text-white rounded">
+      Login
+     </button>
+    </div>
+    <div class="md:w-1/2 p-4">
+     <img alt="Person holding books" class="rounded shadow" height="400" src="https://storage.googleapis.com/a1aa/image/oaIWeBUa3BUVfUDbNpaGvaolliZa6ZI8T0WoREDfqeo0DNjOB.jpg" width="600"/>
+    </div>
+   </div>
+  </section>
+  <!-- Unpublished Masterpieces Section -->
+  <section class="bg-white py-8">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold text-gray-800">
+     Unpublished Masterpieces
+    </h2>
+    <div class="flex flex-col md:flex-row mt-4">
+     <div class="md:w-1/4 p-4">
+      <img alt="Tales of Resilience" class="rounded shadow" height="300" src="https://storage.googleapis.com/a1aa/image/yzJma0lcx1pyIl5IeyGeBmgfs1j0DpYTSi4IyHVj1iTqhmRnA.jpg" width="200"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Tales of Resilience
+      </h3>
+      <p class="text-gray-600 mt-2">
+       $30.00
+      </p>
+      <button class="mt-2 px-4 py-2 bg-brown-800 text-white rounded">
+       Add to Cart
+      </button>
+     </div>
+     <div class="md:w-1/4 p-4">
+      <img alt="Unwritten Stories of Compassion" class="rounded shadow" height="300" src="https://storage.googleapis.com/a1aa/image/kpccef4tyXh9lET7dJcQfq6dfhfRRLCfSiHNfmug4QESboZ0JA.jpg" width="200"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Unwritten Stories of Compassion
+      </h3>
+      <p class="text-gray-600 mt-2">
+       $25.00
+      </p>
+     </div>
+     <div class="md:w-1/4 p-4">
+      <img alt="Lessons in Patience" class="rounded shadow" height="300" src="https://storage.googleapis.com/a1aa/image/pS7CUAIajBpCNFrm4mVznJXa6Pdu0VgCzTnzhDCPDj4Q0M6E.jpg" width="200"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Lessons in Patience
+      </h3>
+      <p class="text-gray-600 mt-2">
+       $20.00
+      </p>
+     </div>
+     <div class="md:w-1/4 p-4">
+      <img alt="Writings on Spiritual Growth" class="rounded shadow" height="300" src="https://storage.googleapis.com/a1aa/image/qtNOB0cedJy3ekwjaywLpImjnr2eQggZ7JhvYSlFpoQwhmRnA.jpg" width="200"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Writings on Spiritual Growth
+      </h3>
+      <p class="text-gray-600 mt-2">
+       $35.00
+      </p>
+     </div>
+    </div>
+    <div class="text-right mt-4">
+     <a class="text-brown-800" href="#">
+      View All Products
+     </a>
+    </div>
+   </div>
+  </section>
+  <!-- Featured Book Section -->
+  <section class="container mx-auto my-8">
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2 p-4">
+     <img alt="Birds Gonna Be Happy" class="rounded shadow" height="400" src="https://storage.googleapis.com/a1aa/image/6p1c8YfgI8SSb65DGrpZUJrlIdLf4YYNAvQR0cNtX1fTimRnA.jpg" width="300"/>
+    </div>
+    <div class="md:w-1/2 p-4">
+     <h2 class="text-2xl font-bold text-gray-800">
+      Featured Book
+     </h2>
+     <h3 class="text-xl font-bold text-gray-800 mt-4">
+      Birds Gonna Be Happy
+     </h3>
+     <p class="text-gray-600 mt-2">
+      by Sufi Ibn Gatan
+     </p>
+     <p class="text-gray-600 mt-4">
+      $45.00
+     </p>
+     <button class="mt-4 px-6 py-2 bg-brown-800 text-white rounded">
+      View More
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- Discount Section -->
+  <section class="bg-white py-8">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold text-gray-800">
+     All books are 50% off now! Don't miss such a deal!
+    </h2>
+    <div class="flex flex-col md:flex-row mt-4">
+     <div class="md:w-1/2 p-4">
+      <p class="text-gray-600">
+       Limited Time Offer: Get 50% off all books! Read wonderful stories, dive into deep teachings, and explore diverse genres. This offer is valid for a limited time only, so don't miss your chance to expand your library and enrich your mind.
+      </p>
+      <div class="flex space-x-4 mt-4">
+       <div class="text-center">
+        <p class="text-2xl font-bold text-gray-800">
+         768
+        </p>
+        <p class="text-gray-600">
+         Days
+        </p>
+       </div>
+       <div class="text-center">
+        <p class="text-2xl font-bold text-gray-800">
+         27
+        </p>
+        <p class="text-gray-600">
+         Hours
+        </p>
+       </div>
+       <div class="text-center">
+        <p class="text-2xl font-bold text-gray-800">
+         55
+        </p>
+        <p class="text-gray-600">
+         Minutes
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="md:w-1/2 p-4">
+      <img alt="Stack of books" class="rounded shadow" height="400" src="https://storage.googleapis.com/a1aa/image/gXvZ8fEL7T1rdSPDRiI06fDOmRYuUPGxhBf5o0saVKcNimRnA.jpg" width="300"/>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Newsletter Section -->
+  <section class="container mx-auto my-8">
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2 p-4">
+     <h2 class="text-2xl font-bold text-gray-800">
+      Subscribe To Our Newsletter
+     </h2>
+     <p class="text-gray-600 mt-4">
+      Stay connected and never miss an update. Subscribe to our newsletter for exclusive access to new releases, special discounts, and more.
+     </p>
+     <input class="border rounded px-4 py-2 mt-4" placeholder="Enter your email address here" type="email"/>
+     <button class="mt-4 px-6 py-2 bg-brown-800 text-white rounded">
+      Send
+     </button>
+    </div>
+    <div class="md:w-1/2 p-4">
+     <img alt="Person reading a book" class="rounded shadow" height="400" src="https://storage.googleapis.com/a1aa/image/fxWuTMr2Ex2LOSAZuh7fWGlpLsiS25wqLz1hfwLmpJerDNjOB.jpg" width="600"/>
+    </div>
+   </div>
+  </section>
+  <!-- Blog Section -->
+  <section class="bg-white py-8">
+   <div class="container mx-auto">
+    <h2 class="text-2xl font-bold text-gray-800">
+     Read our blog stories
+    </h2>
+    <div class="flex flex-col md:flex-row mt-4">
+     <div class="md:w-1/2 p-4">
+      <img alt="Learn about this week's top author" class="rounded shadow" height="200" src="https://storage.googleapis.com/a1aa/image/CezMwZceGvpJU0LDLCnGFmeMnA81uTBcTvyFz1DfwVioENjOB.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Learn about this week's top author
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Discover the journey and works of our featured author of the week.
+      </p>
+      <button class="mt-2 px-4 py-2 bg-brown-800 text-white rounded">
+       Read more
+      </button>
+     </div>
+     <div class="md:w-1/2 p-4">
+      <img alt="Why we celebrate readers" class="rounded shadow" height="200" src="https://storage.googleapis.com/a1aa/image/UaRzRHzFoD4iE9WdRCYkV0RG89T32AvEcOhm3IYyer0fQzoTA.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Why we celebrate readers
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Join us in celebrating the joy and importance of reading.
+      </p>
+      <button class="mt-2 px-4 py-2 bg-brown-800 text-white rounded">
+       Read more
+      </button>
+     </div>
+    </div>
+    <div class="flex flex-col md:flex-row mt-4">
+     <div class="md:w-1/2 p-4">
+      <img alt="Toddlers can also read" class="rounded shadow" height="200" src="https://storage.googleapis.com/a1aa/image/NuR5ShxC7VrdDRh6D3773Cok3K2SC2eAwG4tHVA7rQIeQzoTA.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Toddlers can also read
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Explore how to get your toddlers engaged in reading from an early age.
+      </p>
+      <button class="mt-2 px-4 py-2 bg-brown-800 text-white rounded">
+       Read more
+      </button>
+     </div>
+     <div class="md:w-1/2 p-4">
+      <img alt="Get started on your game" class="rounded shadow" height="200" src="https://storage.googleapis.com/a1aa/image/VclQEd09xErCOxyL6BasYjA4e0XKa2U0Qoaguhwuh7bioZ0JA.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mt-4">
+       Get started on your game
+      </h3>
+      <p class="text-gray-600 mt-2">
+       Tips and tricks to get started on your reading journey.
+      </p>
+      <button class="mt-2 px-4 py-2 bg-brown-800 text-white rounded">
+       Read more
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+   <div class="container mx-auto">
+    <div class="flex flex-col md:flex-row justify-between">
+     <div class="md:w-1/3 p-4">
+      <h3 class="text-xl font-bold">
+       Company
+      </h3>
+      <ul class="mt-4">
+       <li>
+        <a class="text-gray-400" href="#">
+         Home
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400" href="#">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400" href="#">
+         Books
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400" href="#">
+         Blog
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400" href="#">
+         Contact Us
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="md:w-1/3 p-4">
+      <h3 class="text-xl font-bold">
+       Latest Writings
+      </h3>
+      <ul class="mt-4">
+       <li>
+        <a class="text-gray-400" href="#">
+         Patience is a Discipline
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400" href="#">
+         Forgiveness is Key
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400" href="#">
+         The Art of Compassion
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="md:w-1/3 p-4">
+      <h3 class="text-xl font-bold">
+       Contact Us
+      </h3>
+      <p class="text-gray-400 mt-4">
+       1234 Street Name, City, State, 12345
+      </p>
+      <p class="text-gray-400 mt-2">
+       +91 9874802234
+      </p>
+      <p class="text-gray-400 mt-2">
+       info@goldenscrolls.com
+      </p>
+     </div>
+    </div>
+    <div class="text-center mt-8">
+     <p class="text-gray-400">
+      © 2023 Golden Scrolls. All Rights Reserved.
+     </p>
+     <p class="text-gray-400 mt-2">
+      <a class="text-gray-400" href="#">
+       Privacy
+      </a>
+      |
+      <a class="text-gray-400" href="#">
+       Terms of Service
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
